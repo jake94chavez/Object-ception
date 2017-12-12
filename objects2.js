@@ -31,3 +31,22 @@ console.log(adventurer.companion.name);
 adventurer.companion2 = { name: "Flik", type: "Insect"};
 console.log(adventurer.companion2.name);
 // => Flik
+
+// Activity 3
+adventurer.companion.companion = {name: "Tim", type:"Parasite"}
+console.log(adventurer.companion.companion.type)
+// => Parasite
+adventurer.companion.companion.belongings = ["SCUBA tank", "Rogan josh", "health insurance"];
+console.log(adventurer.companion.companion.belongings[2])
+// => health insurance
+
+
+
+
+
+
+
+
+
+
+
